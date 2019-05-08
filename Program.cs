@@ -10,7 +10,7 @@ namespace ConsoleAdventure
             Console.WriteLine("Hello World!");
 
             var world = new World();
-            
+
             var gameOver = false;
             var player = new Player();
             var currentRoom = new Room(new List<string>() { "box" });
@@ -89,7 +89,12 @@ namespace ConsoleAdventure
                         break;
                     case "move":
                     case "go":
-                        currentRoom = world.Move(currentRoom, command.Direction);
+                        var room = world.Move(currentRoom, command.Direction);
+                        if (room != null)
+                            currentRoom = room;
+                        else
+                            Console.WriteLine("You can't move in that direction.");
+                            
                         break;
                     default:
                         Console.WriteLine("I don't understand.");

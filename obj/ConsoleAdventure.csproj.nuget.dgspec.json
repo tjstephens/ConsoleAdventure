@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\TODD4050\\source\\repos\\ConsoleAdventure\\ConsoleAdventure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\TODD4050\\source\\repos\\ConsoleAdventure\\ConsoleAdventure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TODD4050\\source\\repos\\ConsoleAdventure\\ConsoleAdventure.csproj",
+        "projectName": "ConsoleAdventure",
+        "projectPath": "C:\\Users\\TODD4050\\source\\repos\\ConsoleAdventure\\ConsoleAdventure.csproj",
+        "packagesPath": "C:\\Users\\TODD4050\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TODD4050\\source\\repos\\ConsoleAdventure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TODD4050\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://liazon.myget.org/F/dev/auth/ae16a191-7d86-4a10-97f4-6ba3e3e7c035/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

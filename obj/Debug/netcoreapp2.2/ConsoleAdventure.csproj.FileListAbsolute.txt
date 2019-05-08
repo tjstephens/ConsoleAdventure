@@ -1,0 +1,11 @@
+C:\Users\TODD4050\source\repos\ConsoleAdventure\bin\Debug\netcoreapp2.2\ConsoleAdventure.deps.json
+C:\Users\TODD4050\source\repos\ConsoleAdventure\bin\Debug\netcoreapp2.2\ConsoleAdventure.runtimeconfig.json
+C:\Users\TODD4050\source\repos\ConsoleAdventure\bin\Debug\netcoreapp2.2\ConsoleAdventure.runtimeconfig.dev.json
+C:\Users\TODD4050\source\repos\ConsoleAdventure\bin\Debug\netcoreapp2.2\ConsoleAdventure.dll
+C:\Users\TODD4050\source\repos\ConsoleAdventure\bin\Debug\netcoreapp2.2\ConsoleAdventure.pdb
+C:\Users\TODD4050\source\repos\ConsoleAdventure\obj\Debug\netcoreapp2.2\ConsoleAdventure.csprojAssemblyReference.cache
+C:\Users\TODD4050\source\repos\ConsoleAdventure\obj\Debug\netcoreapp2.2\ConsoleAdventure.csproj.CoreCompileInputs.cache
+C:\Users\TODD4050\source\repos\ConsoleAdventure\obj\Debug\netcoreapp2.2\ConsoleAdventure.AssemblyInfoInputs.cache
+C:\Users\TODD4050\source\repos\ConsoleAdventure\obj\Debug\netcoreapp2.2\ConsoleAdventure.AssemblyInfo.cs
+C:\Users\TODD4050\source\repos\ConsoleAdventure\obj\Debug\netcoreapp2.2\ConsoleAdventure.dll
+C:\Users\TODD4050\source\repos\ConsoleAdventure\obj\Debug\netcoreapp2.2\ConsoleAdventure.pdb

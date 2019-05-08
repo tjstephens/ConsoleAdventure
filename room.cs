@@ -2,8 +2,14 @@ using System.Collections.Generic;
 
 namespace ConsoleAdventure 
 {
+
     public class Room 
     {
+        public int? NorthExit { get; private set; }
+        public int? SouthExit { get; private set; }
+        public int? EastExit { get; private set; }
+        public int? WestExit { get; private set; }
+
         public List<string> Inventory { get; private set; }
 
         public Room() 

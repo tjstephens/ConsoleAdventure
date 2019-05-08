@@ -15,6 +15,14 @@ namespace ConsoleAdventure
 
         public World() 
         {
+            for(var x = 0; x <= map.GetUpperBound(0); x++) 
+            {
+                for(var y = 0; y <= map.GetUpperBound(1); y++)
+                {
+                    var room = new Room();
+                    Rooms.Add(room);
+                }
+            }
 
         }
 

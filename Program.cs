@@ -9,6 +9,8 @@ namespace ConsoleAdventure
         {
             Console.WriteLine("Hello World!");
 
+            var world = new World();
+            
             var gameOver = false;
             var player = new Player();
             var currentRoom = new Room(new List<string>() { "box" });
@@ -84,6 +86,10 @@ namespace ConsoleAdventure
                         break;
                     case "quit":
                         gameOver = true;
+                        break;
+                    case "move":
+                    case "go":
+                        currentRoom = world.Move(currentRoom, command.Direction);
                         break;
                     default:
                         Console.WriteLine("I don't understand.");

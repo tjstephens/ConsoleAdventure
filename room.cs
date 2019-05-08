@@ -40,5 +40,10 @@ namespace ConsoleAdventure
 
             return true;
         }
+
+        public int GetNextRoomId(Direction Direction)
+        {
+            
+        }
     }
 }
